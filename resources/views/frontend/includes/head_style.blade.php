@@ -14,3 +14,6 @@
 <link rel="stylesheet" href="{{asset('assets/dist/css/adminlte.min.css')}}">
 <!-- Google Font: Source Sans Pro -->
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;500;600&display=swap" rel="stylesheet"> 
+<!-- Custom CSS-->
+<link rel="stylesheet" href="{{asset('assets/css/custom.css')}}">

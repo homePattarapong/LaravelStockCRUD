@@ -124,7 +124,7 @@
             <img src="{{asset('assets/dist/img/user2-160x160.jpg')}}" class="img-circle elevation-2" alt="User Image">
     
             <p>
-              John Doe - Web Developer
+              Pattarapong Th. - Web Developer
               <small>Member since Nov. 2012</small>
             </p>
           </li>

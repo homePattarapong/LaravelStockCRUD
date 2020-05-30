@@ -8,8 +8,9 @@
     text-align: center;
     display: block;
     width: 100%;
-  }
-  .btn-file input[type="file"] {
+}
+
+.btn-file input[type="file"] {
     position: absolute;
     left: 0;
     top: 0;
@@ -17,9 +18,22 @@
     cursor: pointer;
     margin: 0 auto;
     width: 100% !important;
-  }
-  
-  .label-uppic{
+}
+
+.label-uppic {
     margin-top: 10px;
     text-align: center;
-  }
+}
+
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+
+.borderless td,
+.borderless th {
+    border: none;
+}
+
+.fsize-20{
+  font-size:20px;
+}
