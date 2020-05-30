@@ -20,9 +20,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', 'FrontendController@index');
-Route::get('login', 'FrontendController@login');
-Route::get('register', 'FrontendController@register');
-Route::get('forgotpass', 'FrontendController@forgotpass');
+// Route::get('login', 'FrontendController@login');
+// Route::get('register', 'FrontendController@register');
+// Route::get('forgotpass', 'FrontendController@forgotpass');
 
 /*
 |--------------------------------------------------------------------------
@@ -48,3 +48,7 @@ Route::group([
     
 
 });
+
+
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
